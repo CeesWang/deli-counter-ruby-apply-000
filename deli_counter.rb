@@ -1,8 +1,14 @@
 # Write your code here.
+$TICKETWHEEL = 0
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
   puts  "Welcome, #{name}. You are number #{katz_deli.length} in line."
+end
+
+def take_a_number2()
+  $TICKETWHEEL += 1
+  puts "Welcome you are number #{$TICKETWHEEL}."
 end
 
 def now_serving (katz_deli)
@@ -26,3 +32,9 @@ def line(katz_deli)
     puts str 
   end
 end
+
+take_a_number2
+take_a_number2
+take_a_number2
+take_a_number2
+take_a_number2
